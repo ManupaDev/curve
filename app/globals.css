@@ -65,3 +65,11 @@
 .bg-gradient-2 {
   background: linear-gradient(96.99deg, #222222 -0.89%, rgba(0, 0, 0, 0.76) 95.89%);
 }
+
+.bg-gradient-3 {
+  background: #222222;
+}
+
+.border-gradient-1 {
+  border: 2px solid rgba(133, 133, 133, 0.25);
+}

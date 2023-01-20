@@ -10,7 +10,7 @@ function Hero() {
         </h1>
         <h1 className="text-white">made simple</h1>
       </div>
-      <div className="text-5xl text-white mt-4">
+      <div className="text-4xl text-white mt-4">
         <h1>Our pre-made packages dedicated</h1>
         <h1>for startups</h1>
       </div>
