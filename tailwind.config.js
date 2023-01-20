@@ -11,6 +11,9 @@ module.exports = {
     extend: {
       fontFamily:{
         ['sans']:['product-sans',...defaultTheme.fontFamily.sans]
+      },
+      colors:{
+        'curve-green':'#309C8A'
       }
     },
   },
