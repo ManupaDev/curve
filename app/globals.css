@@ -1,0 +1,53 @@
+@font-face {
+  font-family: "product-sans";
+  src: url("/fonts/product-sans/Product-Sans-Regular.ttf");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "product-sans";
+  src: url("/fonts/product-sans/Product-Sans-Bold.ttf");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "product-sans";
+  src: url("/fonts/product-sans/Product-Sans-Italic.ttf");
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "product-sans";
+  src: url("/fonts/product-sans/Product-Sans-Bold-Italic.ttf");
+  font-weight: 700;
+  font-style: italic;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.text-gradient-1 {
+  background: linear-gradient(90deg, #208372 0%, #4bc9b5 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.text-gradient-2 {
+  background: linear-gradient(90deg, #000000 0.02%, #2cbbab 86.11%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.text-gradient-3 {
+  background: linear-gradient(90deg, #625F5F 0.02%, #625F5F63 86.11%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  
+}
