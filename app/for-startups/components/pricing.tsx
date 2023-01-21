@@ -16,13 +16,13 @@ function Pricing() {
           </span>
           <span className="text-curve-green-light"> we&apos;ve got you covered.</span>
           <span className="text-curve-grey">
-            {" "}
             Our pricing is transparent and simple to understand, making the selection process a breeze.
           </span>
         </h1>
       </div>
 
       <div className="grid grid-cols-3 gap-12 mt-16 border-white">
+        
         {/* Pricing Box 1 */}
         <div className="border border-gradient-1  relative rounded-3xl px-5 py-4">
           <div className="flex justify-end">
@@ -76,7 +76,7 @@ function Pricing() {
           </div>
           <h1 className="text-6xl">
             <span className="text-white">Launch</span>
-            <span className="text-curve-green-lighter">X</span>
+            <span className="text-curve-green-light">X</span>
           </h1>
           <p className="text-white text-xl mt-8">
             Essential branding services for new startups looking for a unique brand identity. perfect for those on a
@@ -154,6 +154,7 @@ function Pricing() {
             </h1>
           </div>
         </div>
+
       </div>
     </div>
   );

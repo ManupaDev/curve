@@ -58,6 +58,7 @@
   background-clip: text;
 }
 
+
 .bg-gradient-1 {
   background: linear-gradient(268.14deg, #65b0d2 -4.96%, #1c5294 98.44%);
 }
@@ -68,6 +69,10 @@
 
 .bg-gradient-3 {
   background: #222222;
+}
+
+.bg-gradient-4{
+  background: #2C2B2B;
 }
 
 .border-gradient-1 {

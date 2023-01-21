@@ -18,6 +18,8 @@ module.exports = {
         'curve-grey':'#9D9D9D',
         'curve-grey-darker':'#3B3B3B',
         'curve-grey-lighter':'#6A6A6A',
+        'curve-grey-dark':'#5F5E5E',
+        'curve-grey-light':'#9D9D9D',
         'curve-blue':'#1C5294'
       }
     },
