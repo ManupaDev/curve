@@ -5,7 +5,7 @@ import CTA from "./components/cta";
 
 function Home() {
   return (
-    <div className="px-12">
+    <div className="px-12 font-sans">
       <Hero />
       <Showcase />
       <Services/>
