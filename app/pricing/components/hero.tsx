@@ -1,4 +1,4 @@
-function PricingSplash() {
+function Hero() {
   return (
     <div className="min-h-screen flex flex-col justify-center border border-black">
       <div>
@@ -17,4 +17,4 @@ function PricingSplash() {
   );
 }
 
-export default PricingSplash;
+export default Hero;
