@@ -1,3 +1,5 @@
+import PricingCard from "./pricing-card";
+
 function ForStartups() {
   return (
     <div className="py-8 border border-black">
@@ -8,7 +10,12 @@ function ForStartups() {
       <h1 className="mt-16 text-lg">
         Want to launch a new digital product? or ready to create a website for your business?
       </h1>
-      <div>{/* Cards */}</div>
+      <div className="flex overflow-x-scroll gap-x-4 mt-4">
+        {/* Cards */}
+        <PricingCard />
+        <PricingCard />
+        <PricingCard />
+      </div>
       <h1 className="text-lg mt-4">Learn more about Start-up Packages and Pricing+</h1>
     </div>
   );
