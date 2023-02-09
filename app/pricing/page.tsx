@@ -4,7 +4,7 @@ import ForStartups from "./components/for-startups";
 
 function Pricing() {
   return (
-    <div className="px-12 font-sans">
+    <div className="px-12 xl:px-72 font-sans">
       <Hero />
       <ForBusinesses />
       <ForStartups />
