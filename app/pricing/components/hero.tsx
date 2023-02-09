@@ -1,8 +1,8 @@
 function Hero() {
   return (
-    <div className="flex min-h-screen flex-col justify-center border border-black">
+    <div className="flex px-12 xl:px-72 min-h-screen flex-col justify-center border border-black">
       <div>
-        <h1 className="text-center text-4xl xl:text-7xl">Our pricing is clear as a sunny day.☀️</h1>
+        <h1 className="text-center text-4xl xl:text-6xl">Our pricing is clear as a sunny day.☀️</h1>
         <h1 className="text-center text-2xl font-normal xl:text-5xl">No hidden fees. No surprises.</h1>
       </div>
       <div className="mt-16 flex flex-col items-center border-black xl:flex-row xl:items-center xl:justify-center xl:gap-x-4 ">
