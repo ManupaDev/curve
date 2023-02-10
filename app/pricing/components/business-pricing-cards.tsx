@@ -1,5 +1,4 @@
 "use client";
-
 import BusinessPricingCard from "./business-pricing-card";
 
 function BusinessPricingCards() {
