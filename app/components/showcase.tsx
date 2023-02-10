@@ -1,6 +1,6 @@
 function Showcase() {
   return (
-    <div className="py-4 border border-black min-h-screen">
+    <div className="py-4 xl:py-32 border border-black min-h-screen">
       <h1 className="text-3xl xl:text-6xl">
         New to the scene, but already making a <span>big impact</span>
       </h1>
