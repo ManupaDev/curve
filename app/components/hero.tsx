@@ -6,22 +6,25 @@ import ReactLogo from "./../../public/assets/react-logo.svg";
 import SwiftLogo from "./../../public/assets/swift-logo.svg";
 import TailwindLogo from "./../../public/assets/tailwindcss-logo.svg";
 
-
 function Hero() {
   return (
-    <div className="py-16 min-h-screen flex flex-col justify-between border border-black">
-      <h1 className="  text-5xl">
-        Introducing the newest player in town, delivering top-notch quality <span>in all that we do.</span>
-      </h1>
+    <div className="flex min-h-screen flex-col justify-between border border-black py-16">
       <div>
-        <h1 className="text-base  ">tools we use</h1>
-        <div className="flex flex-wrap flex-row justify-center gap-4 mt-8">
-          <Image width={20} src={JSLogo} alt="js-logo" />
-          <Image width={72} src={FigmaLogo} alt="figma-logo" />
-          <Image width={72} src={FlutterLogo} alt="flutter-logo" />
-          <Image width={60} src={ReactLogo} alt="react-logo" />
-          <Image width={64} src={SwiftLogo} alt="swift-logo" />
-          <Image width={96} src={TailwindLogo} alt="tailwindcss-logo" />
+        <h1 className="text-5xl xl:text-6xl">
+          Introducing the newest player in town, delivering top-notch quality <span>in all that we do.</span>
+        </h1>
+        <h3 className="text-2xl mt-2 xl:text-3xl xl:mt-4 underline">More about our services</h3>
+      </div>
+
+      <div>
+        <h1 className="text-base  xl:text-4xl">tools we use</h1>
+        <div className="mt-4 xl:mt-8 flex flex-row flex-wrap justify-center gap-4 sm:gap-8 xl:gap-20">
+          <Image width={20} className="sm:scale-125 xl:scale-175" src={JSLogo} alt="js-logo" />
+          <Image width={72} className="sm:scale-125 xl:scale-175" src={FigmaLogo} alt="figma-logo" />
+          <Image width={72} className="sm:scale-125 xl:scale-175" src={FlutterLogo} alt="flutter-logo" />
+          <Image width={60} className="sm:scale-125 xl:scale-175" src={ReactLogo} alt="react-logo" />
+          <Image width={64} className="sm:scale-125 xl:scale-175" src={SwiftLogo} alt="swift-logo" />
+          <Image width={96} className="sm:scale-125 xl:scale-175" src={TailwindLogo} alt="tailwindcss-logo" />
         </div>
       </div>
     </div>

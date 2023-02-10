@@ -5,12 +5,11 @@ import CTA from "./components/cta";
 
 function Home() {
   return (
-    <div className="px-12 font-sans">
+    <div className="px-12 font-sans xl:px-72">
       <Hero />
       <Showcase />
-      <Services/>
-      <CTA/>
-
+      <Services />
+      <CTA />
     </div>
   );
 }

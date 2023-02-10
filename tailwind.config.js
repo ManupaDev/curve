@@ -14,6 +14,9 @@ module.exports = {
       },
       colors:{
         
+      },
+      scale:{
+        '175':'1.75'
       }
     },
   },
