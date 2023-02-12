@@ -3,8 +3,8 @@ import StartupPricingCards from "./startup-pricing-cards";
 
 function ForStartups() {
   return (
-    <div className="border px-12 xl:px-72 border-black py-8 xl:py-32">
-      <div className="">
+    <div className="border  border-black py-8 xl:py-32">
+      <div className="px-12 xl:px-72">
         <div className="mt-4">
           <h1 className="text-xl xl:text-4xl">For Startups</h1>
           <h1 className="mt-4 text-3xl xl:text-6xl">Thinking of giving your business a makeover?</h1>
@@ -14,7 +14,7 @@ function ForStartups() {
         </h1>
       </div>
       <StartupPricingCards />
-      <h1 className="mt-4  text-lg  xl:text-4xl">Learn more about Start-up Packages and Pricing+</h1>
+      <h1 className="mt-4  text-lg  xl:text-4xl px-12 xl:px-72">Learn more about Start-up Packages and Pricing+</h1>
     </div>
   );
 }

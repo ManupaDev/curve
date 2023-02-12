@@ -3,7 +3,7 @@ import { CheckIcon } from "@heroicons/react/20/solid";
 function BusinessPricingCard({ size }: { size: string }) {
   if (size === "m") {
     return (
-      <div className="flex w-80 h-w-80 flex-none flex-col justify-between rounded-xl border border-black px-4 py-4">
+      <div className="flex w-80 h-80 flex-none flex-col justify-between rounded-2xl border border-black px-4 py-4">
         <h1 className="text-3xl">Branding</h1>
         <p className="mt-4 text-sm">
           Essential branding services for new startups looking for a unique brand identity.perfect for those on a
@@ -41,7 +41,7 @@ function BusinessPricingCard({ size }: { size: string }) {
   }
   else if (size === "l") {
     return (
-      <div className="flex w-96 h-96 flex-none flex-col justify-between rounded-xl border border-black px-4 py-4">
+      <div className="flex w-96 h-96 flex-none flex-col justify-between rounded-3xl border border-black px-4 py-4">
         <h1 className="text-4xl">Branding</h1>
         <p className="mt-4 text-base">
           Essential branding services for new startups looking for a unique brand identity.perfect for those on a
@@ -78,7 +78,7 @@ function BusinessPricingCard({ size }: { size: string }) {
     );
   }
   return (
-    <div className="flex h-60 w-60 flex-none flex-col justify-between rounded-lg border border-black px-2 py-2">
+    <div className="flex h-60 w-60 flex-none flex-col justify-between rounded-xl border border-black px-2 py-2">
       <h1 className="text-2xl">Branding</h1>
       <p className="mt-2 text-xs">
         Essential branding services for new startups looking for a unique brand identity.perfect for those on a budget.
