@@ -8,7 +8,7 @@ import TailwindLogo from "./../../public/assets/tailwindcss-logo.svg";
 
 function Hero() {
   return (
-    <div className="flex min-h-screen flex-col justify-between border border-black py-16 xl:py-32">
+    <div className="flex min-h-screen flex-col xl:gap-y-16 justify-between border border-black py-16 xl:py-32">
       <div>
         <h1 className="text-5xl xl:text-6xl">
           Introducing the newest player in town, delivering top-notch quality <span>in all that we do.</span>
@@ -18,7 +18,7 @@ function Hero() {
 
       <div>
         <h1 className="text-base  xl:text-4xl">tools we use</h1>
-        <div className="mt-4 xl:mt-8 flex flex-row flex-wrap justify-center gap-4 sm:gap-8 xl:gap-20">
+        <div className="mt-4 xl:mt-8 flex flex-row flex-wrap justify-center gap-4 sm:gap-8 xl:gap-x-20 xl:gap-y-4">
           <Image width={20} className="sm:scale-125 xl:scale-175" src={JSLogo} alt="js-logo" />
           <Image width={72} className="sm:scale-125 xl:scale-175" src={FigmaLogo} alt="figma-logo" />
           <Image width={72} className="sm:scale-125 xl:scale-175" src={FlutterLogo} alt="flutter-logo" />
