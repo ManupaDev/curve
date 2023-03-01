@@ -3,7 +3,7 @@ import StartupPricingCards from "./startup-pricing-cards";
 
 function ForStartups() {
   return (
-    <div className="border  border-black py-8 xl:py-32">
+    <div className="  border-black py-8 xl:py-32">
       <div className="px-12 xl:px-72">
         <div className="mt-4">
           <h1 className="text-xl xl:text-4xl">For Startups</h1>
