@@ -8,9 +8,9 @@ function Hero() {
         <span>new brands</span> to <span>designing a killer website</span> and <span>user experience.</span>
       </p>
       <div className="flex justify-between xl:justify-start xl:gap-x-4 mt-8">
-        <h1 className="text-base underline xl:text-5xl">Branding</h1>
-        <h1 className="text-base underline xl:text-5xl">Web Development</h1>
-        <h1 className="text-base underline xl:text-5xl">UX/UI</h1>
+        <h1 className="text-base underline xl:text-4xl">Branding</h1>
+        <h1 className="text-base underline xl:text-4xl">Web Development</h1>
+        <h1 className="text-base underline xl:text-4xl">UX/UI</h1>
       </div>
       <div className="w-full h-48 xl:h-96 border border-black mt-8"></div>
     </div>

@@ -8,6 +8,7 @@ function Services() {
       <Hero />
       <Branding />
       <Service />
+      <Service />
     </div>
   );
 }
