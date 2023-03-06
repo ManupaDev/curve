@@ -15,7 +15,7 @@ function Services() {
         also focus on consistency across all mediums and touchpoints, so you can be sure your brand is always on point.
       </p>
 
-      <div className="gap-y-2 grid grid-cols-1">
+      <div className="gap-y-2 mt-8 grid grid-cols-1">
         <Disclosure as={"div"} className="border border-black">
           <Disclosure.Button as="div" className="flex ui-open:border-red-500 items-center justify-between border-black py-2">
             <span className="block text-lg">Branding</span>
