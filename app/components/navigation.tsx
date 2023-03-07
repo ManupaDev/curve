@@ -4,7 +4,7 @@ import Link from "next/link";
 
 function Navigation({ handleMenuControlClick }: { handleMenuControlClick: () => void }) {
   return (
-    <div className="fixed left-0 z-10 right-0 top-0 flex items-center justify-between border border-black bg-white px-8 py-4 ">
+    <div className="fixed left-0 z-10 right-0 top-0 flex items-center justify-between border border-black bg-white px-8 xl:px-16 py-4 ">
       <div></div>
       <div className="hidden xl:flex  gap-x-8 justify-between">
         <Link
