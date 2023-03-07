@@ -1,13 +1,12 @@
 import "./globals.css";
-import Navigation from "./components/navigation";
+import NavigationWrapper from "./wrappers/navigation-wrapper";
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
       <head />
-      <body>
-        <Navigation />
-        {children}
+      <body className="pt-14">
+        <NavigationWrapper>{children}</NavigationWrapper>
       </body>
     </html>
   );
