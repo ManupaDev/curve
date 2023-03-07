@@ -127,7 +127,6 @@ function Branding() {
 
       <div className="grid grid-cols-1  gap-y-8 px-12 xl:px-72 py-8 xl:py-16">
         <Image src={DaylyImg} alt="dayly branding" />
-
         <Image src={TheusImg} alt="theus branding" />
       </div>
     </div>
