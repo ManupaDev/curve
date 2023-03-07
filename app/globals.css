@@ -37,3 +37,7 @@
 .grid-cols-1-2{
   grid-template-columns: 1fr 2fr;
 }
+
+.grid-cols-20{
+  grid-template-columns: repeat(20, minmax(0, 1fr));
+}

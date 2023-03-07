@@ -13,6 +13,7 @@ function HDecoration() {
         <div className="hidden xl:block rounded bg-black"></div>
         <div className="hidden xl:block rounded bg-black"></div>
         <div className="hidden xl:block rounded bg-black"></div>
+        
       </div>
     );
   }
