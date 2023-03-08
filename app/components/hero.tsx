@@ -13,12 +13,12 @@ function Hero() {
         <h1 className="text-5xl xl:text-6xl">
           Introducing the newest player in town, delivering top-notch quality <span>in all that we do.</span>
         </h1>
-        <h3 className="mt-2 text-2xl underline xl:mt-4 xl:text-3xl">More about our services</h3>
+        <h3 className="mt-2 text-2xl underline lg:mt-4 xl:mt-4 xl:text-3xl">More about our services</h3>
       </div>
 
       <div>
-        <h1 className="mt-16 text-base xl:text-4xl">tools we use</h1>
-        <div className="mt-2 xl:mt-6 grid grid-cols-3 place-items-center  gap-x-4 gap-y-8 px-2">
+        <h1 className="mt-16 text-base md:text-2xl xl:text-4xl">tools we use</h1>
+        <div className="mt-2 grid lg:grid-cols-6 grid-cols-3 place-items-center gap-x-4 gap-y-8  px-2 lg:mt-4 xl:mt-8">
           <Image width={20} className="sm:scale-125 xl:scale-175" src={JSLogo} alt="js-logo" />
           <Image width={72} className="sm:scale-125 xl:scale-175" src={FigmaLogo} alt="figma-logo" />
           <Image width={72} className="sm:scale-125 xl:scale-175" src={FlutterLogo} alt="flutter-logo" />
