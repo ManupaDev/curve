@@ -1,10 +1,19 @@
 "use client";
 import { Bars2Icon } from "@heroicons/react/20/solid";
+import clsx from "clsx";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 
 function Navigation({ handleMenuControlClick }: { handleMenuControlClick: () => void }) {
+
+  const pathname = usePathname();
+  const isDark = pathname === "/for-startups";
+
+  
   return (
-    <div className="fixed left-0 z-10 right-0 top-0 flex items-center justify-between border border-black bg-white px-8 xl:px-16 py-4 ">
+    <div className={clsx("fixed left-0 z-10 right-0 top-0 flex bg-white items-center justify-between border border-black  px-8 xl:px-16 py-4",{
+      "bg-curve-grey-12 text-white":isDark,
+    })}>
       <div></div>
       <div className="hidden xl:flex  gap-x-8 justify-between">
         <Link

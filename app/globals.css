@@ -30,14 +30,66 @@
 @tailwind components;
 @tailwind utilities;
 
-.button-border-1{
+.button-border-1 {
   border: 2px solid rgba(133, 133, 133, 0.25);
 }
 
-.grid-cols-1-2{
+.grid-cols-1-2 {
   grid-template-columns: 1fr 2fr;
 }
 
-.grid-cols-20{
+.grid-cols-20 {
   grid-template-columns: repeat(20, minmax(0, 1fr));
 }
+
+.text-bg-1 {
+  background: linear-gradient(90.08deg, #000000 0.02%, #2cbbab 86.11%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.text-bg-2 {
+  background: linear-gradient(90.08deg, #625f5f 0.02%, #625f5f63 86.11%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.text-bg-3 {
+  background: linear-gradient(90deg, #1c5294 0.2%, #1f7ea5 100.2%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.text-bg-4 {
+  background: linear-gradient(90deg, #208372 0.2%, #4bc9b5 100.2%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.text-bg-5 {
+  background: linear-gradient(90.08deg, #979797 0.02%, #d8d8d8 86.11%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.bg-gradient-1 {
+  background: linear-gradient(108.47deg, #f5eaf1 3.77%, #dfeef4 97.42%);
+}
+
+.bg-gradient-2 {
+  background: linear-gradient(97.83deg, #e9e4f0 4.61%, #d3cce3 94.4%);
+}
+
+.bg-gradient-3 {
+  background: linear-gradient(96.99deg, #222222 -0.89%, rgba(0, 0, 0, 0.76) 95.89%);
+}
+
+.bg-gradient-4{
+  background-color: rgba(255, 255, 255, 0.53);
+}
+
