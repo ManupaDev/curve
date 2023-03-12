@@ -10,7 +10,7 @@ import TheusImg from "./../../../public/assets/theus-branding.png";
 
 function Branding() {
   return (
-    <div className="border border-black">
+    <div className=" border-black">
       <div className="px-12 py-16 xl:px-72 xl:py-32">
         <h1 className="text-2xl underline md:text-3xl xl:text-5xl text-curve-green-1">Branding</h1>
         <h1 className="mt-6 text-3xl md:text-4xl xl:text-5xl text-curve-grey-2">We make brands, or give the old ones a facelift</h1>

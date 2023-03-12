@@ -6,7 +6,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en">
       <head />
-      <body className="pt-14">
+      <body className="pt-12">
         <NavigationWrapper>{children}</NavigationWrapper>
         <Footer/>
       </body>

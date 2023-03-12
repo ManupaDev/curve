@@ -1,6 +1,6 @@
 function Hero() {
   return (
-    <div className="flex px-12 xl:px-72 bg-gradient-1 min-h-screen flex-col justify-center border border-black">
+    <div className="flex px-12 xl:px-72 bg-gradient-1 min-h-screen flex-col justify-center  border-black">
       <div>
         <h1 className="text-center text-curve-grey-2  text-4xl xl:text-6xl">Our pricing is clear as a sunny day.☀️</h1>
         <h1 className="text-center text-2xl text-curve-grey-3 font-normal xl:text-5xl">No hidden fees. No surprises.</h1>

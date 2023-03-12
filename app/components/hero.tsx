@@ -6,6 +6,7 @@ import ReactLogo from "./../../public/assets/react-logo.svg";
 import SwiftLogo from "./../../public/assets/swift-logo.svg";
 import TailwindLogo from "./../../public/assets/tailwindcss-logo.svg";
 
+
 function Hero() {
   return (
     <div className="flex min-h-screen flex-col justify-between border-black py-16 xl:gap-y-16 xl:py-32">

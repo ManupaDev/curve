@@ -10,6 +10,9 @@ import IconInstagram from "./../../public/assets/icons8-instagram.svg";
 import { usePathname } from "next/navigation";
 import clsx from "clsx";
 
+import { MdFacebook } from "react-icons/md";
+import { BsLinkedin,BsInstagram } from "react-icons/bs";
+
 function Footer() {
   const pathname = usePathname();
   const isDark = pathname === "/for-startups";
@@ -24,7 +27,7 @@ function Footer() {
       <div className="md:grid md:grid-cols-2 md:gap-x-4">
         <div>
           <h1 className={clsx("text-lg xl:text-4xl", { "text-white": isDark })}>Psst...wanna know a secret ?</h1>
-          <h1 className="text-base xl:mt-4 text-curve-grey-17 xl:text-3xl   ">
+          <h1 className="text-base text-curve-grey-17 xl:mt-4 xl:text-3xl   ">
             We love to brag about ourselves and keep you in the loop on all the awesome things we're doing.
           </h1>
         </div>
@@ -36,7 +39,10 @@ function Footer() {
         >
           <input
             type="text"
-            className={clsx("block  focus:outline-none  xl:text-2xl", { "bg-[#353535] text-curve-grey-17": isDark, "bg-[#FAFAFA] text-curve-grey-17":!isDark })}
+            className={clsx("block  focus:outline-none  xl:text-2xl", {
+              "bg-[#353535] text-curve-grey-17": isDark,
+              "bg-[#FAFAFA] text-curve-grey-17": !isDark,
+            })}
             placeholder="That's why we need your email."
           />
           <button className="text-lg text-curve-green-4 xl:text-3xl">Join</button>
@@ -69,24 +75,10 @@ function Footer() {
         <Link href="/" className="mt-2 block rounded text-curve-grey-17  xl:text-2xl">
           Apply for partnership program
         </Link>
-        <div className="mt-2 flex gap-x-4 xl:mt-4">
-          <Image src={IconFB} alt="facebook icon" width={24} height={24} color={"#9E9E9E"} />
-          <Image
-            src={IconLinkedIn}
-            alt="linkedin icon"
-            width={24}
-            height={24}
-            color={"#9E9E9E"}
-            className="text-curve-grey-17"
-          />
-          <Image
-            src={IconInstagram}
-            alt="linkedin icon"
-            width={24}
-            height={24}
-            color={"#9E9E9E"}
-            className="text-curve-grey-17"
-          />
+        <div className="mt-2  items-center flex gap-x-8 xl:mt-4">
+          <MdFacebook size={32} className={"text-[#9E9E9E]"}/>
+          <BsLinkedin size={24} className={"text-[#9E9E9E]"}/>
+          <BsLinkedin size={24} className={"text-[#9E9E9E]"}/>  
         </div>
       </div>
     </div>

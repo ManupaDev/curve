@@ -7,7 +7,7 @@ function NavOverlay({ isOpen, handleMenuControlClick }: { isOpen: boolean; handl
   
     return (
     <div
-      className={clsx("fixed top-0 left-0 right-0 bottom-0  z-10 border border-red-500 bg-white", {
+      className={clsx("fixed top-0 left-0 right-0 bottom-0  z-10 border border-red-500 bg-gradient-5", {
         hidden: !isOpen,
       })}
     >

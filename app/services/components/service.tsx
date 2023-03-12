@@ -4,7 +4,7 @@ import Link from "next/link";
 
 function Service() {
   return (
-    <div className="border border-black py-16 px-12 xl:px-72 xl:py-32">
+    <div className=" border-black py-16 px-12 xl:px-72 xl:py-32">
       <h1 className="text-2xl md:text-3xl xl:text-5xl text-curve-blue-4 underline">Web Development</h1>
       <h1 className="mt-4 xl:mt-8 text-3xl md:text-4xl text-curve-grey-2 xl:text-6xl underline">Web Build Websites</h1>
       <p className="my-16 text-xs md:text-base xl:text-2xl xl:my-32">

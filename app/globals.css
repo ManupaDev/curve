@@ -93,6 +93,10 @@
   background-color: rgba(255, 255, 255, 0.53);
 }
 
+.bg-gradient-5{
+  background: linear-gradient(7.32deg, #D8D6D6 3.99%, #FFFFFF 99.3%);
+}
+
 .grid-cols-1-2{
   display: grid;
   grid-template-columns: 1fr 2fr;

@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 function Hero() {
   return (
-    <div className="px-12 xl:px-72 bg-gradient-2 xl:py-32 min-h-screen flex flex-col justify-center border border-black">
+    <div className="px-12 xl:px-72 bg-gradient-2 xl:py-32 min-h-screen flex flex-col justify-center  border-black">
       <h1 className="text-4xl md:text-5xl xl:text-7xl">Our bread and butter</h1>
       <p className="text-base md:text-xl mt-8 xl:text-3xl text-curve-grey-4">
         We're in the business of building awesome digital products for tech companies and beyond, from creating{" "}
