@@ -11,7 +11,7 @@ function Navigation({ handleMenuControlClick }: { handleMenuControlClick: () => 
 
   
   return (
-    <div className={clsx("fixed left-0 z-10 right-0 top-0 flex bg-white items-center justify-between border border-black  px-8 xl:px-16 py-4",{
+    <div className={clsx("fixed shadow-1 left-0 z-10 right-0 top-0 flex bg-white items-center justify-between  border-black  px-8 xl:px-16 py-4",{
       "bg-curve-grey-12 text-white":isDark,
     })}>
       <div></div>

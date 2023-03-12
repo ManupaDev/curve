@@ -15,7 +15,7 @@ function Services() {
 
   if (isMobile) {
     return (
-      <div className="min-h-screen border border-black py-8 xl:py-32">
+      <div className="min-h-screen  border-black py-8 xl:py-32">
         <h1 className="text-3xl xl:text-6xl">
           Our services / <span className="text-curve-grey-1">what we do</span>
         </h1>
@@ -64,7 +64,7 @@ function Services() {
   }
 
   return (
-    <div className="min-h-screen border border-black py-8 xl:py-32">
+    <div className="min-h-screen  border-black py-8 xl:py-32">
       <h1 className="text-3xl xl:text-6xl">
         Our services / <span className="text-curve-grey-1">what we do</span>
       </h1>

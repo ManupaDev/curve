@@ -5,7 +5,7 @@ import DailyImage from "./../../public/assets/dayly-branding.png";
 function Showcase() {
   
   return (
-    <div className="py-4 xl:py-32 lg:py-8 border border-black min-h-screen">
+    <div className="py-4 xl:py-32 lg:py-8  border-black min-h-screen">
       <h1 className="text-3xl xl:text-6xl">
         New to the scene, but already making a <span className="text-curve-blue-3">big impact</span>
       </h1>

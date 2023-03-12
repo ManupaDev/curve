@@ -2,7 +2,7 @@ import Link from "next/link";
 
 function CTA() {
   return (
-    <div className="py-10 xl:py-64   border border-black">
+    <div className="py-10 xl:py-64    border-black">
       <h1 className="text-2xl text-center xl:text-5xl">
         Interested in getting the deets or pricing info?
         <br />

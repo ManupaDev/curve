@@ -8,7 +8,7 @@ import TailwindLogo from "./../../public/assets/tailwindcss-logo.svg";
 
 function Hero() {
   return (
-    <div className="flex min-h-screen flex-col justify-between border border-black py-16 xl:gap-y-16 xl:py-32">
+    <div className="flex min-h-screen flex-col justify-between border-black py-16 xl:gap-y-16 xl:py-32">
       <div>
         <h1 className="text-5xl xl:text-6xl ">
           <span className="text-bg-1">Introducing the newest player in town, delivering top-notch quality </span>
