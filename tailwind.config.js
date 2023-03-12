@@ -29,6 +29,7 @@ module.exports = {
         'curve-grey-14':"#c4c4c4",
         'curve-grey-15':"#383838",
         'curve-grey-16':"#444444",
+        'curve-grey-17':"#9E9E9E",
         'curve-blue-1':"#1C5294",
         'curve-blue-2':"#16498D",
         'curve-blue-3':"#1F7EA5",
@@ -36,6 +37,7 @@ module.exports = {
         'curve-green-1':"#3FAEB0", 
         'curve-green-2':"#309C8A",  
         'curve-green-3':"#4BC9B5",
+        'curve-green-4':"#2CBBAB",
       
       },
       scale:{

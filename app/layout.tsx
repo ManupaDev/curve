@@ -1,5 +1,6 @@
 import "./globals.css";
 import NavigationWrapper from "./wrappers/navigation-wrapper";
+import Footer from "./components/footer";
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
@@ -7,6 +8,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <head />
       <body className="pt-14">
         <NavigationWrapper>{children}</NavigationWrapper>
+        <Footer/>
       </body>
     </html>
   );
