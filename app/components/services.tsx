@@ -41,7 +41,7 @@ function Services() {
 
           <Disclosure as={"div"} className="border border-black">
             <Disclosure.Button as="div" className="flex items-center justify-between border-black py-2">
-              <span className="block  text-curve-grey-13text-lg">Web Development</span>
+              <span className="block  text-curve-grey-13 text-lg">Web Development</span>
               <ChevronDownIcon width={18} height={18} />
             </Disclosure.Button>
             <Disclosure.Panel className="border border-black text-gray-500">
@@ -51,7 +51,7 @@ function Services() {
 
           <Disclosure as={"div"} className="border border-black">
             <Disclosure.Button as="div" className="flex items-center justify-between border-black py-2">
-              <span className="block  text-curve-grey-13text-lg">UX/UI</span>
+              <span className="block  text-curve-grey-13 text-lg">UX/UI</span>
               <ChevronDownIcon width={18} height={18} />
             </Disclosure.Button>
             <Disclosure.Panel className="border border-black text-gray-500">
