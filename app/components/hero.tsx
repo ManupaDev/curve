@@ -6,14 +6,37 @@ import ReactLogo from "./../../public/assets/react-logo.svg";
 import SwiftLogo from "./../../public/assets/swift-logo.svg";
 import TailwindLogo from "./../../public/assets/tailwindcss-logo.svg";
 import Link from "next/link";
+import { useEffect, useMemo, useState } from "react";
+import { motion } from "framer-motion";
 
 function Hero() {
+  const [text, setText] = useState("all that we do");
+  const strings = useMemo(() => ["Ux/Ui", "development", "branding"], []);
+  const [index, setIndex] = useState(0);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setIndex((prevIndex) => (prevIndex + 1) % strings.length);
+    }, 2000);
+
+    return () => clearInterval(interval);
+  }, [strings.length]);
+
+  useEffect(() => {
+    setText(strings[index]);
+  }, [index, strings]);
+
   return (
-    <div className="flex min-h-screen flex-col  justify-between border-black py-16 lg:justify-start xl:justify-between xl:gap-y-16 xl:py-32">
+    <motion.div
+      initial={{ opacity: 0 }}
+      whileInView={{ opacity: 1 }}
+      viewport={{ once: true }}
+      className="flex min-h-screen flex-col  justify-between border-black py-16 lg:justify-start xl:justify-between xl:gap-y-16 xl:py-32"
+    >
       <div>
         <h1 className="text-5xl lg:mt-16 xl:mt-0 xl:text-6xl ">
           <span className="text-bg-1">Introducing the newest player in town, delivering top-notch quality </span>
-          <span className="text-bg-2">in all that we do.</span>
+          <span className="text-bg-2">{text}.</span>
         </h1>
         <Link
           href="/services"
@@ -34,7 +57,7 @@ function Hero() {
           <Image width={96} className="sm:scale-125 xl:scale-175" src={TailwindLogo} alt="tailwindcss-logo" />
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 }
 

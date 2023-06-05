@@ -1,8 +1,14 @@
+import { motion } from "framer-motion";
 import Link from "next/link";
 
 function CTA() {
   return (
-    <div className="border-black py-16 xl:py-32">
+    <motion.div
+      initial={{ opacity: 0, y: 20 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      viewport={{ once: true, amount: 0.5 }}
+      className="border-black py-16 xl:py-32"
+    >
       <h1 className="text-center text-2xl lg:text-left xl:text-5xl">
         Interested in getting the pricing info or want check our services?
         <br />
@@ -19,7 +25,7 @@ function CTA() {
           Drop a message
         </button>
       </div>
-    </div>
+    </motion.div>
   );
 }
 
