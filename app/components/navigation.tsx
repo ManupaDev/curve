@@ -5,45 +5,33 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 
 function Navigation({ handleMenuControlClick }: { handleMenuControlClick: () => void }) {
-
   const pathname = usePathname();
   const isDark = pathname === "/for-startups";
 
-  
   return (
-    <div className={clsx("fixed shadow-1 left-0 z-10 right-0 top-0 flex bg-white items-center justify-between  border-black  px-8 xl:px-16 py-4",{
-      "bg-curve-grey-12 text-white":isDark,
-    })}>
+    <div
+      className={clsx(
+        "shadow-1 fixed left-0 right-0 top-0 z-10 flex items-center justify-between border-black  bg-white  px-8 py-4 lg:py-6 xl:px-16",
+        {
+          "bg-curve-grey-12 text-white": isDark,
+        }
+      )}
+    >
       <div></div>
-      <div className="hidden xl:flex  gap-x-8 justify-between">
-        <Link
-          className="block text-right text-xl"
-          href={"/"}
-        >
+      <div className="hidden justify-between  gap-x-8 xl:flex">
+        <Link className="block text-right text-xl" href={"/"}>
           Work
         </Link>
-        <Link
-          className="block text-right text-xl"
-          href={"/services"}
-        >
+        <Link className="block text-right text-xl" href={"/services"}>
           Services
         </Link>
-        <Link
-          className="block text-right text-xl"
-          href={"/pricing"}
-        >
+        <Link className="block text-right text-xl" href={"/pricing"}>
           Pricing
         </Link>
-        <Link
-          className="block text-right text-xl"
-          href={"/for-startups"}
-        >
+        <Link className="block text-right text-xl for-startups-nav-link ease-in-out delay-500" href={"/for-startups"}>
           For Startups
         </Link>
-        <Link
-          className="block text-right text-xl"
-          href={"/contact-us"}
-        >
+        <Link className="block text-right text-xl" href={"/contact-us"}>
           Contact Us
         </Link>
       </div>
@@ -56,7 +44,7 @@ function Navigation({ handleMenuControlClick }: { handleMenuControlClick: () => 
             window.scrollTo(0, 0);
           };
         }}
-        className="xl:hidden block"
+        className="block xl:hidden"
       />
     </div>
   );
