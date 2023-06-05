@@ -8,7 +8,7 @@ function Home() {
     <div className="px-12 font-sans xl:px-72">
       <Hero />
       <Showcase />
-      <Services />
+      {/* <Services /> */}
       <CTA />
     </div>
   );

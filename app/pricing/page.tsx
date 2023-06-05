@@ -4,7 +4,7 @@ import ForStartups from "./components/for-startups";
 
 function Pricing() {
   return (
-    <div className=" font-sans">
+    <div className="font-sans">
       <Hero />
       <ForBusinesses />
       <ForStartups />

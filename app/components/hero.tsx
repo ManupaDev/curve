@@ -5,17 +5,22 @@ import FlutterLogo from "./../../public/assets/flutter-logo.svg";
 import ReactLogo from "./../../public/assets/react-logo.svg";
 import SwiftLogo from "./../../public/assets/swift-logo.svg";
 import TailwindLogo from "./../../public/assets/tailwindcss-logo.svg";
-
+import Link from "next/link";
 
 function Hero() {
   return (
-    <div className="flex min-h-screen flex-col justify-between border-black py-16 xl:gap-y-16 xl:py-32">
+    <div className="flex min-h-screen flex-col  justify-between border-black py-16 lg:justify-start xl:justify-between xl:gap-y-16 xl:py-32">
       <div>
-        <h1 className="text-5xl xl:text-6xl ">
+        <h1 className="text-5xl lg:mt-16 xl:mt-0 xl:text-6xl ">
           <span className="text-bg-1">Introducing the newest player in town, delivering top-notch quality </span>
           <span className="text-bg-2">in all that we do.</span>
         </h1>
-        <h3 className="mt-2 text-2xl underline lg:mt-4 xl:mt-4 xl:text-3xl">More about our services</h3>
+        <Link
+          href="/services"
+          className="mt-2 block cursor-pointer text-2xl text-curve-grey-18 underline transition delay-100 hover:no-underline lg:mt-4 xl:mt-4 xl:text-3xl"
+        >
+          More about our services
+        </Link>
       </div>
 
       <div>

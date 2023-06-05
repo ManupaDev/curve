@@ -11,7 +11,7 @@ import { usePathname } from "next/navigation";
 import clsx from "clsx";
 
 import { MdFacebook } from "react-icons/md";
-import { BsLinkedin,BsInstagram } from "react-icons/bs";
+import { BsLinkedin, BsInstagram } from "react-icons/bs";
 
 function Footer() {
   const pathname = usePathname();
@@ -32,14 +32,14 @@ function Footer() {
           </h1>
         </div>
         <div
-          className={clsx(
-            "mt-4 flex items-center justify-between  rounded-lg  border-black p-2 md:mt-0 md:h-fit xl:rounded-2xl xl:p-4",
-            { "bg-[#fafafa]": !isDark, "bg-[#353535]": isDark }
-          )}
+          className={clsx("mt-4 flex rounded-lg justify-between border-black p-2 md:mt-0 md:h-fit xl:rounded-2xl xl:p-4", {
+            "bg-[#fafafa]": !isDark,
+            "bg-[#353535]": isDark,
+          })}
         >
           <input
             type="text"
-            className={clsx("block  focus:outline-none  xl:text-2xl", {
+            className={clsx("focus:outline-none w-3/4  xl:text-2xl", {
               "bg-[#353535] text-curve-grey-17": isDark,
               "bg-[#FAFAFA] text-curve-grey-17": !isDark,
             })}
@@ -75,10 +75,10 @@ function Footer() {
         <Link href="/" className="mt-2 block rounded text-curve-grey-17  xl:text-2xl">
           Apply for partnership program
         </Link>
-        <div className="mt-2  items-center flex gap-x-8 xl:mt-4">
-          <MdFacebook size={32} className={"text-[#9E9E9E]"}/>
-          <BsLinkedin size={24} className={"text-[#9E9E9E]"}/>
-          <BsLinkedin size={24} className={"text-[#9E9E9E]"}/>  
+        <div className="mt-2  flex items-center gap-x-8 xl:mt-4">
+          <MdFacebook size={32} className={"text-[#9E9E9E]"} />
+          <BsLinkedin size={24} className={"text-[#9E9E9E]"} />
+          <BsLinkedin size={24} className={"text-[#9E9E9E]"} />
         </div>
       </div>
     </div>

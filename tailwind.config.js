@@ -30,6 +30,7 @@ module.exports = {
         'curve-grey-15':"#383838",
         'curve-grey-16':"#444444",
         'curve-grey-17':"#9E9E9E",
+        'curve-grey-18':"#838282",
         'curve-blue-1':"#1C5294",
         'curve-blue-2':"#16498D",
         'curve-blue-3':"#1F7EA5",
