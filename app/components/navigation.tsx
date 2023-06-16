@@ -19,19 +19,19 @@ function Navigation({ handleMenuControlClick }: { handleMenuControlClick: () => 
     >
       <div></div>
       <div className="hidden justify-between  gap-x-8 xl:flex">
-        <Link className="block text-right text-xl" href={"/"}>
+        <Link className="block py-1 px-2 rounded-md hover:bg-curve-grey-19 transition-all ease-in-out text-right text-xl" href={"/"}>
           Work
         </Link>
-        <Link className="block text-right text-xl" href={"/services"}>
+        <Link className="block py-1 px-2 rounded-md hover:bg-curve-grey-19 transition-all ease-in-out text-right text-xl" href={"/services"}>
           Services
         </Link>
-        <Link className="block text-right text-xl" href={"/pricing"}>
+        <Link className="block py-1 px-2 rounded-md hover:bg-curve-grey-19 transition-all ease-in-out text-right text-xl" href={"/pricing"}>
           Pricing
         </Link>
-        <Link className="block text-right text-xl for-startups-nav-link ease-in-out delay-500" href={"/for-startups"}>
+        <Link className="block py-1 px-2 rounded-md hover:bg-curve-grey-19 transition-all  text-right text-xl for-startups-nav-link ease-in-out" href={"/for-startups"}>
           For Startups
         </Link>
-        <Link className="block text-right text-xl" href={"/contact-us"}>
+        <Link className="block py-1 px-2 rounded-md hover:bg-curve-grey-19 transition-all ease-in-out text-right text-xl" href={"/contact-us"}>
           Contact Us
         </Link>
       </div>
