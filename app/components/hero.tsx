@@ -34,7 +34,7 @@ function Hero() {
       className="flex min-h-screen flex-col  justify-between border-black py-16 lg:justify-start xl:justify-between xl:gap-y-16 xl:py-32"
     >
       <div>
-        <h1 className="text-5xl lg:mt-16 xl:mt-0 xl:text-7xl ">
+        <h1 className="text-5xl lg:mt-16 xl:mt-0 xl:text-6xl 2xl:text-7xl">
           <span className="text-bg-1">Introducing the newest player in town, delivering top-notch quality </span>
           <span className="text-bg-2">{text}.</span>
         </h1>
