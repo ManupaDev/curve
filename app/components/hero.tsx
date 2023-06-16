@@ -40,7 +40,7 @@ function Hero() {
         </h1>
         <Link
           href="/services"
-          className="mt-4 block cursor-pointer text-2xl text-curve-grey-18 underline transition delay-100 hover:no-underline lg:mt-8 xl:mt-16 xl:text-3xl"
+          className="mt-4 block cursor-pointer text-3xl text-curve-grey-18 underline transition delay-100 hover:no-underline lg:mt-8 xl:mt-16 xl:text-4xl"
         >
           More about our services
         </Link>
