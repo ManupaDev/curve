@@ -34,13 +34,13 @@ function Hero() {
       className="flex min-h-screen flex-col  justify-between border-black py-16 lg:justify-start xl:justify-between xl:gap-y-16 xl:py-32"
     >
       <div>
-        <h1 className="text-5xl lg:mt-16 xl:mt-0 xl:text-6xl ">
+        <h1 className="text-5xl lg:mt-16 xl:mt-0 xl:text-7xl ">
           <span className="text-bg-1">Introducing the newest player in town, delivering top-notch quality </span>
           <span className="text-bg-2">{text}.</span>
         </h1>
         <Link
           href="/services"
-          className="mt-2 block cursor-pointer text-2xl text-curve-grey-18 underline transition delay-100 hover:no-underline lg:mt-4 xl:mt-4 xl:text-3xl"
+          className="mt-4 block cursor-pointer text-2xl text-curve-grey-18 underline transition delay-100 hover:no-underline lg:mt-8 xl:mt-16 xl:text-3xl"
         >
           More about our services
         </Link>
